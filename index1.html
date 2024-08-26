@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Fusion By Ayushi Gupta</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">Feed <span>Fusion</span></div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <h1>Welcome to Feed Fusion</h1>
+                <p>The News Aggregator</p>
+                <p>Get the latest news on your favorite topics</p>
+                <input type="text" id="topics" placeholder="Enter topic of intrest here...">
+                <div class="button-container">
+                    <button onclick="loadNews()">Search</button>
+                    <button onclick="refreshContent()">Refresh</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="news-container" id="news-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
